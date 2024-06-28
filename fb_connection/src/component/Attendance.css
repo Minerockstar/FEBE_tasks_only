@@ -1,0 +1,98 @@
+#addstd {
+    background-color: var(--body_background);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    color: var(--body_color); 
+    border-radius: 5px;
+    width: 980px;
+    margin-left: 10px;
+    margin-top: 70px;
+    padding-bottom: 80px;
+}
+#addstd .fstname{
+    margin-left: 200px;
+    left: 100px;
+    outline: none;
+    color: var(--body_color);
+    width: 740px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color:  rgba(128, 128, 128, 0.411);
+    border-color: rgba(128, 128, 128, 0.411);
+    border: none;
+    border-radius: 1px;
+}
+#addstd .btn{
+    top: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #d21489;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-left:50px;
+    margin-top: 40px;
+    width: 100px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.addhdiconatten h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 350px;
+    font-weight: 900;
+    top: 5px;
+    /* background-color: rgb(233, 30, 99);
+    color: white;
+    width: 290px; */
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+}
+/* Viewatt */
+.viewatt{
+    background-color: var(--body_background);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    color: var(--body_color); 
+    border-radius: 5px;
+    width: 980px;
+    margin-left: 10px;
+    height: 400px;
+    margin-top: 70px;
+    padding-bottom: 80px;
+    padding-right: 10px;
+}
+.viewatt h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 320px;
+    font-weight: 900;
+    top: 5px;
+    /* background-color: rgb(233, 30, 99);
+    color: white;
+    width: 290px; */
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+}
+.tablereci tr{
+    border: 1px solid white;
+    
+}
+.tablereci {
+    border: 1px solid white;
+border-collapse: collapse;
+margin-left: 10px;
+}
+.tablereci td{
+    border: 1px solid var(--body_color);
+}
+.tablereci th{
+    border: 1px solid var(--body_color);
+    width: 175px;
+    padding-top: 5px;
+    color: var(--body_color);
+padding-bottom: 5px;
+background-color: #0da0b4;
+    
+}

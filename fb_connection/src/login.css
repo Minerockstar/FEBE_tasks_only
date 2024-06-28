@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#login {
+    background-color: white;
+    /* color: white; */
+    color: black;
+    height: 100vh;
+}
+.imglogins{
+    position: absolute;
+    width: 600px;
+    left: 100px;
+    top: 80px;
+}
+.log {
+    /* border: 1.5px solid #810551; */
+    width: 500px;
+    border-radius: 5px;
+    height: 540px;
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    /* border-image: linear-gradient(20deg, #088b9c, #db068a); */
+    border-image-slice: 1;
+}
+
+.logins h1{
+    padding-bottom: 10px;
+}
+#login input{
+    outline: none;
+    color: black;
+    width: 270px;
+    padding-top: 10px;
+    border-color: white;
+    border: 1px solid #db068a;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    
+}
+.logins{
+    position: relative;
+    left: 122px;
+    top: 100px;
+  
+}
+.forgotbtn{
+    position: relative;
+    color: black;
+    background-color: transparent;
+    top: 40px;
+    left: 80px;
+    cursor: pointer;
+}
+.logins h1{
+    position: relative;
+    left: 90px;
+    background-image: linear-gradient(10deg, #d21489, #0bb1c7);
+    width: 100px;
+    background-clip: text;
+    color: transparent;
+}
+
+
+#login .icon{
+    position: absolute;
+    padding-top: 5px;
+    font-size: 25px;
+    left: 242px;
+    color: #0f77b4;
+}
+
+.loginbtn{
+    position: relative;
+    /* left: 100px; */
+    top: 20px;
+    padding: 10px 110px 10px 110px;
+    cursor: pointer;
+    background-color: #ae076e;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    transition:background-color 0.5s  ease;
+}
+.loginbtn:hover{
+    background-image: linear-gradient(10deg, #d21489, #3c8dbc);
+    background-clip:  border-box;
+    /* background-origin: border-box; */
+    
+}
+.dont{
+    color: black;
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+}
+.dont button{
+    border: none;
+    color: #810551;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#dont{
+    border: none;
+    color: #cd0f84;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.fainfi{
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    font-size: 80px;
+    color: linear-gradient(10deg, #810551, white);
+    /* -webkit-background-clip: text; */
+    /* color: transparent; */
+    color: #810551;
+   
+
+}

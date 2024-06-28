@@ -1,0 +1,86 @@
+#forgotpg{
+  height: 100vh;
+/* background-color: #ff6f61; */
+background-color: white;
+}
+#forgotpg img{
+   width: 500px;
+   /* height: 540px; */
+   position: absolute;
+   left: 650px;
+   top: 0;
+}
+.crt{
+color: white;
+}
+.fulfor{
+    position: absolute;
+    left: 300px;
+    top: 130px;
+    
+}
+.fulfor h1{
+    position: relative;
+    left: 10px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    width: 100%;
+    background-clip: text;
+    color: transparent;
+}
+.paswrd p{
+    padding-top: 10px;
+
+}
+.paswrd input{
+    outline: none;
+    color: black;
+    width: 270px;
+    padding-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: none;
+    background-color: transparent;
+    /* background-color: #ff6f61; */
+    border-bottom: 1px solid #db068a;
+}
+.submit {
+    position: relative;
+    left: 43px;
+    top: 30px;
+    padding: 10px 65px 10px 65px;
+    cursor: pointer;
+    background-color: #d21489;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    transition:background-color 0.5s  ease;
+}
+.submit:hover{
+    background-image: linear-gradient(10deg, #d21489, #3c8dbc);
+    /* background-color: #0da0b4; */
+    background-clip:  border-box;
+    transition: 2s;
+}
+.backlogin{
+    position: relative;
+    left: 80px;
+    top: 50px;
+    color: #ef199d;
+}
+.iconsfor{
+    position: absolute;
+    padding-top: 5px;
+    font-size: 25px;
+    left: 242px;
+    color: #0685a8;
+}
+.backicon{
+    font-size: 25px;
+    position: relative;
+    top: 7px;
+}

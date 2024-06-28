@@ -1,0 +1,263 @@
+
+*{
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+}
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease; 
+}
+.sidebar-collapse .main-sidebar {
+  width: 50px !important;
+
+}
+.main-sidebar.active{
+  width: max-content;
+}
+.main-sidebar.active #logomenu{
+  position: absolute;
+  font-size: 23px;
+  top: 5px;
+  left: 10px;
+  cursor: pointer;
+  color: var(--body_background);
+}
+#logo{
+  font-size: 50px;
+  color: #0da0b4;
+}
+.logos sup{
+     font-size: 20px;
+     /* color: white; */
+     background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+
+.main-sidebar.active #logo{
+  position: relative;
+  font-size: 23px;
+  left:-40px;
+  width: 20px;
+  top: 20px;
+}
+.dark_mode{
+  position: absolute;
+  left: 1100px;
+  top: 20px;
+}
+#logodiv{
+  width: 100%;
+  padding-bottom: 5px;
+  /* border: 1px solid gray; */
+  border-top: none;
+  border-left: none;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  border-right: none;
+  
+}
+
+.main-sidebar.active #logodiv{
+  width: 20px;
+  background-color: transparent;
+}
+.main-sidebar.active .logos{
+  width: 20px;
+}
+.main-sidebar.active sup{
+  position: relative;
+  
+  display: none;
+}
+.logos:hover{
+  /* background-color: rgba(0, 0, 0, 0.151); */
+}
+.logos{
+  padding-top: 24px;
+  /* padding-bottom: 24px; */
+  padding-left: 50px;
+  /* background-color: rgba(0, 0, 0, 0.160); */
+  width: 200px;
+  /* left: 10px; */
+  top: -30px;
+  position: relative;
+  /* border-radius: 5px; */
+  color: white;
+}
+
+.adminsmal{
+  position: absolute;
+  left: 52px;
+  top: 110px;
+}
+#logomenu{
+  font-size: 23px;
+  position: absolute;
+  left: 250px;
+  top: 30px;
+  color: var(--body_color);
+  cursor: pointer;
+  z-index: 1;
+}
+.main-sidebar.active .logos{
+  /* display: none; */
+  position: relative;
+  top: -10px;
+}
+.main-sidebar.active span{
+  display: none;
+}
+.main-sidebar.active .logos{
+  width: 100px;
+  position: relative;
+  left: 0;
+}
+#icons{
+  color: white;
+}
+.dashb{
+  color: white;
+}
+.main-sidebar{
+  background-color: #343a40;
+  color: white;
+  box-shadow: 0 0 20px 0px #d21489;
+}
+.icons{
+  font-size: 19px;
+  
+}
+.main-sidebar li{
+  cursor: pointer;
+  font-size: 20px;
+  width: 230px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-sidebar.active li{
+  position: relative;
+  left: -10px;
+}
+.sidebarcon {
+  position: relative;
+  left: 40px;
+  cursor: pointer;
+}
+.main-sidebar.active .sidebarcon{
+  display: none;
+}
+.sidebarcon div{
+  padding-top: 5px;
+}
+.content-wrapper {
+  flex: 1;
+  /* background-color: rgba(128, 128, 128, 0.196); */
+  background-color: var(--body_background);
+  padding: 20px;
+  
+}
+.card {
+  margin-top: 20px;
+}
+
+.card-header {
+  background-color: #3c8dbc;
+  color: #ffffff;
+}
+
+.card-title {
+  font-weight: bold;
+}
+.input-field {
+  margin-left: 50px;
+  width: 500px;
+}
+
+
+.dark_mode {
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.dark_mode_label {
+  width: 65px;
+  height: 30px;
+  position: relative;
+  display: block;
+  background: #ebebeb;
+  border-radius: 200px;
+  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4),
+      inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dark_mode_label:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+
+  background: linear-gradient(180deg, #ffcc89, #d21489);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.dark_mode_input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.dark_mode_input:checked + .dark_mode_label {
+  background: #242424;
+}
+.dark_mode_input:checked + .dark_mode_label:after {
+  left: 62px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg, #777, #3a3a3a);
+}
+.dark_mode_label:active:after {
+  width: 30px;
+}
+
+.dark_mode_label svg {
+  position: absolute;
+  width: 20px;
+  top: 5px;
+  z-index: 100;
+}
+.dark_mode_label svg.sun {
+  left: 5px;
+  fill: #fff;
+  transition: 0.3s;
+}
+.dark_mode_label svg.moon {
+  left: 40px;
+  fill: #7e7e7e;
+  transition: 0.3s;
+}
+.dark_mode_input:checked + .dark_mode_label svg.sun {
+  fill: #7e7e7e;
+}
+.dark_mode_input:checked + .dark_mode_label svg.moon {
+  fill: #fff;
+}
+:root {
+  --body_background: white;
+  --body_color: black;
+  /* --link_color: black; */
+}
+[data-theme="dark"]{
+  --body_background: #282c34;
+  --body_color: white;
+  /* --link_color: cyan; */
+
+}

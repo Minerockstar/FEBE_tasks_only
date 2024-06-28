@@ -1,0 +1,92 @@
+#signup{
+    background-color: white;
+    /* color: white; */
+    color: black;
+    height: 100vh;
+}
+#signup input{
+    outline: none;
+    color: black;
+    width: 270px;
+    padding-top: 10px;
+    border-color: white;
+    border: 1px solid #db068a;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}
+#signup .reacticon{
+    position: absolute;
+    padding-top: 5px;
+    font-size: 25px;
+    left: 242px;
+    color: #ff61a0;
+}
+.sign {
+    /* border: 1.5px solid #810551; */
+    width: 500px;
+    border-radius: 5px;
+    height: 540px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    /* border-image: linear-gradient(20deg,#810551 #05454d); */
+    border-image-slice: 1;
+}
+.signupppp{
+    position: relative;
+    left: 180px;
+    top: 110px;
+}
+.pinfin{
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    font-size: 80px;
+    color: linear-gradient(10deg, #810551, white);
+    /* -webkit-background-clip: text; */
+    /* color: transparent; */
+    color: #810551;
+   
+}
+.imglogin{
+    width: 500px;
+   /* height: 540px; */
+   position: absolute;
+   top: 100px;
+   left: 600px;
+}
+.signupppp h1{
+    padding-bottom: 10px;
+    position: relative;
+    left: 60px;
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    width: 200px;
+    background-clip: text;
+    color: transparent;
+}
+.signinput p{
+    padding-top: 10px;
+}
+.createbtn{
+    position: relative;
+    /* left: 100px; */
+    top: 20px;
+    padding: 10px 65px 10px 65px;
+    cursor: pointer;
+    background-color: #be0276;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    transition:background-color 0.5s  ease;
+}
+.createbtn:hover{
+    background-image: linear-gradient(10deg, #d21489, #3c8dbc);
+    /* background-color: #3c8dbc; */
+    background-clip:  border-box;
+    /* background-origin: border-box; */
+}

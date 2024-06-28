@@ -1,0 +1,69 @@
+.main {
+  background-color: var(--body_background);
+  box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+  color: var(--body_color); 
+  border-radius: 10px;
+  height: 800px;
+  margin-top: 70px;
+}
+.search input{
+  color: var(--body_color);
+  background-color: rgba(128, 128, 128, 0.411);
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  left: 390px;
+  top: 20px;
+  width: 200px;
+  padding: 5px 5px 5px 5px;
+  outline: none;
+}
+.filter {
+  text-align: center;
+  position: relative;
+  left: 100px;
+  width: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  top: 100px;
+  color: var(--body_color);
+  background-color: rgb(12, 171, 171);
+  border-radius: 5px;
+}
+.datalist {
+  border-radius: 5px;
+  text-align: center;
+position: relative;
+left: 580px;
+width: 300px;
+padding-top: 50px;
+padding-bottom: 50px;
+/* top: 60px; */
+top: -120px;
+overflow: hidden;
+background-color: rgb(12, 171, 171);
+}
+.datastr{
+  border-radius: 5px;
+  text-align: center;
+position: relative;
+left: 100px;
+width: 300px;
+padding-top: 50px;
+padding-bottom: 50px;
+/* top: 0px; */
+overflow: hidden;
+background-color: rgb(12, 171, 171);
+}
+.dataotr{
+  border-radius: 5px;
+  text-align: center;
+position: relative;
+left: 580px;
+width: 300px;
+padding-top: 50px;
+padding-bottom: 50px;
+top: -220px;
+overflow: hidden;
+background-color: rgb(12, 171, 171);
+}

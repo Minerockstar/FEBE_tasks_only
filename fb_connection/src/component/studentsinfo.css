@@ -1,0 +1,381 @@
+.addingstd{
+    background-color: var(--body_background);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    color: var(--body_color); 
+    border-radius: 5px;
+    width: 980px;
+    margin-left: 10px;
+    margin-top: 70px;
+    padding-bottom: 80px;
+}
+/* #idinputs{
+    position: absolute;
+    left: 100px;
+} */
+.checkbox1{
+    position: absolute;
+    left: 273px;
+}
+ #inputids{
+    width: 100px;
+ }
+.addingstd .fstname {
+    margin-left: 210px;
+    left: 100px;
+    outline: none;
+    color: var(--body_color);
+    display: grid;
+    width: 740px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color:  rgba(128, 128, 128, 0.411);
+    border-color: rgba(128, 128, 128, 0.411);
+    border: none;
+    border-radius: 1px;
+}
+ .inputhandle{
+   position: relative;
+   top: 20px;
+   left: 50px;
+
+}
+.formsadding{
+    width: 800px;
+}
+.addhdicon{
+    width: 800px;
+}
+#addhdicon h2{
+    padding-bottom: 20px;
+    margin-left: 320px;
+    font-weight: 900;
+    top: 5px;
+    /* background-color: rgb(233, 30, 99);
+    color: white;
+    width: 290px; */
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+}
+.mari{
+    position: relative;
+    left: 50px;
+}
+.haddStusentoh {
+    /* position: relative; */
+    /* top: 30px; */
+    /* margin-left: 220px; */
+    margin-left: 230px;
+    font-size: 18px;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    /* background-image: linear-gradient(10deg, #d21489, #0bb1c7); */
+    background-color: #d21489;
+    border-radius: 2px;
+    color: white;
+}
+.hviewstdoh{
+    margin-left: 200px;
+    font-size: 18px;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+    background-color: #d21489;
+    border-radius: 2px;
+    color: white;
+}
+.cash{
+    color: white;
+}
+.check1{
+    margin-left: 95px;
+}
+.checktec{
+    margin-left: 55px;
+}
+.checksss{
+    margin-left: 20px;
+}
+.checks{
+    margin-left: 60px;
+}
+.check11{
+    margin-left: 38px;
+}
+/* .haddStusent:hover{
+    background-image: linear-gradient(10deg, #d21489, #3c8dbc);
+    background-color: #d21489;
+    background-clip:  border-box;
+    transition: 2s;
+} */
+.adminicon{
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    /* border: 1px solid gray; */
+
+}
+
+.main-sidebar.active .adminstatus{
+    display: none;
+}
+.chief{
+    font-size: 13px;
+    position: absolute;
+    top: 139px;
+    left: 65px;
+}
+.adminsmal{
+    position: absolute;
+    left: 52px;
+}
+.circle{position: absolute;
+    top: 140px;
+    left: 50px;
+   font-size: 10px;
+   color: green;
+   
+}
+.addingstd .btn{
+    
+    top: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #d21489;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-left:50px;
+    margin-top: 40px;
+    width: 100px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.cashs{
+    color: white;
+}
+.pagibtn button{
+margin-left: 10px;
+margin-top: 20px;
+width: 50px;
+}
+
+
+/* Viewstd */
+.viewstd{
+    position: relative;
+    top: 3px;
+    left:-30px;
+    color: white;
+      
+    }
+    #mainssss{
+        position: absolute;
+        background-color: var(--body_background);
+        box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+        color: var(--body_color); 
+        border-radius: 5px;
+        margin-top: 80px;
+        height: 600px;
+        width: 1000px;
+        display: flex;
+        flex-wrap: nowrap; /* Prevent wrapping */
+        overflow-x: auto;
+    }
+    .tablemains {
+      width: 2500px;;
+      }
+    #mainssss table{
+        width: 2500px;
+        border-collapse: collapse;
+        color: var(--body_color);
+        padding: 5px 5px 5px 5px;
+    }
+    .listtab tr{
+       border: 1px solid var(--body_color);
+    }
+    .listtab td{
+        border: 1px solid var(--body_color);
+    }
+    .listtab th{
+        border: 1px solid var(--body_color);
+        background-color: gray;
+    }
+    #search{
+        position: absolute;
+        width: 200px;
+        color: var(--body_color);
+        outline: none;
+        background-color: rgba(128, 128, 128, 0.324);
+        border: none;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        left: 10px;
+        top: 100px;
+    }
+    #tablma{
+       margin-left: 10px;
+        margin-top: 150px;
+    }
+    /* .tablemains{
+        white-space: nowrap;
+    } */
+    
+    .listtab{
+        width: 100px;
+        text-align: center;
+    }
+    .headth th{
+        width: 500px;
+    }
+    .tablemap input{
+        color: var(--body_color);
+    }
+    .viewicon{
+        cursor: pointer;
+       margin-left: 10px;
+       background-color: #0da0b4;
+       padding: 10px 30px 10px 30px;
+       border-radius: 5px;
+       color: white;
+    }
+    
+    
+    .prebtn{
+       color: white;
+       cursor: pointer;
+       /* background-image: linear-gradient(10deg, #d21489, #0bb1c7); */
+       background-color: #d21489;
+       border-radius: 2px;
+       border: none;
+       padding: 5px 5px 5px 5px;
+       border-radius: 2px;
+       cursor: pointer;
+    }
+    .prevnextbtn{
+        position: absolute;
+        left: 10px;
+        padding-top: 10px;
+    }
+    .emplogo{
+        /* padding-top: 20px; */
+        left: 320px;
+        font-weight: 900;
+        cursor: pointer;
+        top: 5px;
+        /* background-color: rgb(233, 30, 99);
+        color: white;
+        width: 290px; */
+        background-image: linear-gradient(10deg, #d21489, #0da0b4);
+        background-clip: text;
+        font-size: 20px;
+        color: transparent;
+        position: absolute;
+        top: 30px;
+    }
+    .emplogos{position: absolute;
+        top: 30px;
+        background-image: linear-gradient(10deg, #d21489, #0da0b4);
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 20px;
+        left:500px;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .cash{
+        color: #0da0b4;
+    }
+    /* rgb(15, 174, 237) */
+    .saveicons{
+        cursor: pointer;
+        background-color: green;
+        font-size: 20px;
+        color: white;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .deldelicons{
+        cursor: pointer;
+        background-color: red;
+        font-size: 20px;
+        color: white;
+        border-radius: 2px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .delicon{
+        color: var(--body_color);
+        cursor: pointer;
+        background-color: rgb(255, 196, 0);
+        font-size: 20px;
+        color: white;
+        border-radius: 2px;
+        margin-bottom: 20px;
+    }
+/* viewemp */
+#cashs{
+    color: #0da0b4;
+}
+.emplogosemp{
+    position: absolute;
+    top: 30px;
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 20px;
+    left:500px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.emplogoemp{
+    left: 300px;
+    font-weight: 900;
+    top: 5px;
+    /* background-color: rgb(233, 30, 99);
+    color: white;
+    width: 290px; */
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    font-size: 20px;
+    color: transparent;
+    position: absolute;
+    top: 30px;
+}
+
+.close{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    left: 800px;
+}
+.stdpop{
+    position: absolute;
+    left: 420px;
+    top: 50px;
+}
+.imgstdpop{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #popmodal{
+    position: relative;
+    left: 300px;
+  }
+  .popup-content{
+    width: 600px;
+  }

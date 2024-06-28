@@ -1,0 +1,161 @@
+#addstd {
+    background-color: var(--body_background);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    color: var(--body_color); 
+    border-radius: 5px;
+    width: 980px;
+    margin-left: 10px;
+    margin-top: 70px;
+    padding-bottom: 80px;
+}
+#check{
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.addhdicon {
+    /* position: absolute;
+    left: 300px;
+    top: 10px; */
+}
+/* .addhdicon span{
+    position: relative;
+     top: 60px;
+     left: 20px;
+     font-size: 18px;
+} */
+.haddStusent {
+    position: relative;
+    top: 30px;
+    left: -90px;
+    font-size: 18px;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+}
+.hviewstd {
+    position: relative;
+     top: 30px;
+     left: 100px;
+     height: 10px;
+     font-size: 18px;
+     padding: 5px 5px 5px 5px;
+}
+.haddStusent:hover{
+    background-color: rgba(0, 0, 0, 0.160);
+    border-radius: 2px;
+}
+.hviewstd:hover{
+    background-color: rgba(0, 0, 0, 0.160);
+    border-radius: 2px;
+}
+
+.addstd .bg-waves {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* z-index: -1; */
+    opacity: 0.3;
+  overflow: hidden;
+}
+
+
+ #addstd .formscustomer {
+    /* position: absolute;
+    left: 30px;
+    top: 50px; */
+}
+.formscustomer p{
+    padding-top: 12px;
+}
+.addstd .fstname{
+    margin-left: 200px;
+    left: 100px;
+    outline: none;
+    color: var(--body_color);
+    display: grid;
+    width: 740px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background-color:  rgba(128, 128, 128, 0.411);
+    border-color: rgba(128, 128, 128, 0.411);
+    border: none;
+    border-radius: 1px;
+}
+/* .addstd .maris{
+    position: relative;
+    left: 150px;
+    top: -20px;
+} */
+.addstd button{
+    width: 100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.martstus{
+    position: relative;
+      left: 100px;
+}
+.check  {
+    position: relative;
+    left: 50px;
+}
+.addstd .btn{
+    top: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #d21489;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-left:50px;
+    margin-top: 40px;
+    width: 100px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-bottom: 10px;   
+}
+
+
+
+.listc table{
+    border: 1px solid white;
+border-collapse: collapse;
+
+margin-left: 50px;
+width: 890px;
+
+}
+.listtab tr{
+width: 500px;
+}
+.listc {
+    
+   
+}
+.listc h3{
+    padding-top: 20px;
+    margin-left: 400px;
+    font-weight: 900;
+    top: 5px;
+    /* background-color: rgb(233, 30, 99);
+    color: white;
+    width: 290px; */
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+}
+.listtab th{
+    border: 1px solid var(--body_color);
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.listtab {
+    /* position: relative;
+    left: 10px; */
+}
+.deliconsdel{
+    color: red;
+    cursor: pointer;
+    margin-left: 20px;
+}

@@ -1,0 +1,187 @@
+.gst {
+    background-color: var(--body_background);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,.5);
+    color: var(--body_color); 
+    border-radius: 5px;
+    width: 980px;
+    margin-left: 10px;
+    margin-top: 70px;
+    padding-bottom: 80px;
+}
+.gstcolor{
+    top: 25px;
+    width: 880px;
+    height: 135vh;
+    left: 20px;
+    border-radius: 5px;
+}
+.bill{
+    position: relative;
+    margin-left: 50px;
+    top: 40px;
+}
+.bill p{
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bill select{
+    color: black;
+}
+.bill h3{
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+}
+.bill h1{
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+    background-clip: text;
+    color: transparent;
+}
+.logoimgs sup{
+    font-size: 20px;
+    background-image: linear-gradient(10deg, #d21489, #0da0b4);
+   background-clip: text;
+   color: transparent;
+   font-weight: 900;
+}
+.logoimg{
+    font-size: 50px;
+    font-size: 50px;
+    color: #0da0b4;
+  }
+  .logoimgs{
+   
+    width: 230px;
+    position: absolute;
+    top: 180px;
+    margin-left: 680px;
+    border-radius: 5px;
+  }
+  .invoicegst{
+    position: absolute;
+    margin-left: 680px;
+    top: 270px;
+    width: 300px;
+  }
+  .invoicegst input{
+    color: black;
+  }
+.businessreq{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+.buzzz table{
+    border-collapse: collapse;
+}
+.buzzz .total{
+    position: absolute;
+    left: 419px;
+}
+.totlo {
+    width: 192px;
+}
+.buzzz th{
+    padding: 5px 5px 5px 5px;
+}
+.buzzz td{
+    padding: 5px 5px 5px 5px;
+}
+.zero {
+    width: 123px;
+}
+.buzzz {
+    position: absolute;
+    top: 200px;
+}
+.buzzz table{
+    width: 800px;
+    position: absolute;
+    left: 60px;
+    top: 350px;
+}
+.buzzz th{
+    border: 1px solid var(--body_color);
+}
+.buzzz tr{
+    border: 1px solid var(--body_color);
+}
+.buzzz td{
+    border: 1px solid var(--body_color);
+}
+.words {
+    position: absolute;
+    left: 50px;
+    top: 520px;
+}
+.words h3{
+    left: 330px;
+    position: absolute;
+    width: 200px;
+}
+.words p{
+    width: 200px;
+
+}
+.words button{
+    position: absolute;
+     left: 700px;
+     top: 100px;
+     color: white;
+     width: 80px;
+     padding: 5px 5px 5px 5px;
+     border-radius: 2px;
+     background-color: #d21489;
+     cursor: pointer;
+     border: none;
+}
+.plusicon{
+    position: relative;
+    left: 20px;
+    color: green;
+    cursor: pointer;
+    font-size: 20px;
+}
+.insecond {
+    position: relative;
+    left: 10px;
+
+}
+.printbtn{
+    top: 30px;
+    color: var(--body_color);
+    font-weight: bold;
+    background-color: #d21489;
+   
+}
+.buzzz input{
+    outline: none;
+    color: black;
+}
+@media print {
+    .printbtn {
+        display: none;
+    }
+    .plusicon{
+        display: none;
+    }
+    .delicons{
+        display: none;
+    }
+}
+.delicons {
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+.detailcus{
+    color: black;
+}
+#customer-details {
+    
+
+}
